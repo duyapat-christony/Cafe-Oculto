@@ -1210,12 +1210,12 @@ a:focus {
 }
 
 /*search button*/
-.search {
+.searcher {
     position: relative;
     height: 50px;
 }
 
-.search .input {
+.searcher .input {
     background-color: #fff;
     border: 0;
     order-radius: 20px;
@@ -1226,7 +1226,7 @@ a:focus {
     transition: width 0.3s ease;
 }
 
-.btn {
+.searcher_button {
     background-color: #fff;
     border: 0;
     border-radius: 20px;
@@ -1240,16 +1240,16 @@ a:focus {
     transition: transform 0.3s ease;
 }
 
-.btn:focus,
+.searcher_button:focus,
 .input:focus {
     outline: none;
 }
 
-.search.active .input {
+.searcher.active .input {
     width: 200px;
 }
 
-.search.active .btn {
+.searcher.active .btn {
     transform: translateX(198px);
 }
 
