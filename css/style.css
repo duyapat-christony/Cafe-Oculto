@@ -8,15 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
-  html,
-  body{
-    width:100vw;
-    height:auto;
-    overflow:hidden;
-  }
-}
-
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
@@ -1054,6 +1045,7 @@ a:focus {
   overflow: hidden;
   line-height: 0;
   margin-bottom:-120px;
+  background-color:#fcf6e6;
 }
 
 .custom-shape-divider-top-1698286742 svg {
@@ -1096,6 +1088,7 @@ a:focus {
   margin-top:-100px;
   margin-bottom:0;
   padding-bottom:0;
+  background-color:#fcf6e6;
 }
 
 .custom-shape-divider-bottom-1698287624 svg {
