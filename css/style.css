@@ -400,6 +400,12 @@ a:focus {
     transform: translateX(-1345px);  
   }
 }
+
+.slider_shadow {
+    -webkit-box-shadow: inset 25px 0px 25px -25px #fcf6e6, inset -25px 0px 25px -25px #fcf6e6;
+    -moz-box-shadow: inset 25px 0px 25px -25px #fcf6e6, inset -25px 0px 25px -25px #fcf6e6;
+    box-shadow: inset 25px 0px 25px -25px #fcf6e6, inset -25px 0px 25px -25px #fcf6e6;
+}
 /*end infinite slider*/
 
 /* start offer section */
