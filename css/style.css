@@ -1037,41 +1037,41 @@ a:focus {
 }
 
 /*shape divider above about*/
-.custom-shape-divider-top-1698374018 {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    background-color: #FCF6E6;
+.custom-shape-divider-top-1698286742 {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-bottom:-120px;
 }
 
-.custom-shape-divider-top-1698374018 svg {
-    position: static;
-    display: block;
-    width: calc(121% + 1.3px);
-    height: 175px;
+.custom-shape-divider-top-1698286742 svg {
+  position: static;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
-.custom-shape-divider-top-1698374018 .shape-fill {
-    fill: #FCF6E6;
+.custom-shape-divider-top-1698286742 .shape-fill {
+  fill: #FCF6E6;
 }
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-    .custom-shape-divider-top-1698374018 svg {
-        width: calc(121% + 1.3px);
-        height: 118px;
-    }
+  .custom-shape-divider-top-1698286742 svg {
+      width: calc(100% + 1.3px);
+      height: 79px;
+  }
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-    .custom-shape-divider-top-1698374018 svg {
-        width: calc(121% + 1.3px);
-        height: 67px;
-    }
+  .custom-shape-divider-top-1698286742 svg {
+      width: calc(100% + 1.3px);
+      height: 49px;
+  }
 }
 
 /* shape divider below about*/
