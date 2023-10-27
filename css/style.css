@@ -1038,16 +1038,17 @@ a:focus {
 
 /*shape divider above about*/
 .custom-shape-divider-top-1698374018 {
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    background-color: #FCF6E6;
 }
 
 .custom-shape-divider-top-1698374018 svg {
-    position: relative;
+    position: static;
     display: block;
     width: calc(121% + 1.3px);
     height: 175px;
