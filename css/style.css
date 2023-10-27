@@ -1076,7 +1076,7 @@ a:focus {
 @media (max-width: 767px) {
   .custom-shape-divider-top-1698286742 svg {
       width: calc(100% + 1.3px);
-      height: 49px;
+      height: 0px;
   }
 }
 
@@ -1119,7 +1119,7 @@ a:focus {
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1698287624 svg {
       width: calc(100% + 1.3px);
-      height: 49px;
+      height: 40px;
   }
 }
 
