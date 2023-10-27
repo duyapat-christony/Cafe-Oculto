@@ -397,7 +397,7 @@ a:focus {
 
 @keyframes moveSlideshow {
   100% { 
-    transform: translateX(-1345px);  
+    transform: translateX(-1343px);  
   }
 }
 
