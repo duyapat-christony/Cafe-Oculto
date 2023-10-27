@@ -1148,6 +1148,11 @@ a:focus {
 }
 
 /*gallery*/
+.gallery {
+  widht:300px;
+  max-width: 20vw;
+  height:auto;
+}
 
 
 
