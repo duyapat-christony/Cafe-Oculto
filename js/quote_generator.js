@@ -4,10 +4,6 @@ const authorDiv = document.getElementById("author-output");
 
 const quotes = [
   {
-    quote: "Behind every successful person is a substantial amount of coffee.",
-    author: "— Unknown"
-  },
-  {
     quote: "Coffee is the common man's gold. It brings to every person the feeling of luxury and nobility",
     author: "— Sheik-Abd-al-Kadir"
   },
@@ -318,6 +314,370 @@ const quotes = [
   {
     quote: "I never laugh until I've had my coffee.",
     author: "— Clark Gable"
+  },
+  {
+    quote: "Coffee is a language in itself.",
+    author: "— Jackie Chan"
+  },
+  {
+    quote: "I can't imagine a day without coffee. I can't imagine!",
+    author: "— Howard Schultz"
+  },
+  {
+    quote: "Adventure in life is good; consistency in coffee even better.",
+    author: "— Justina Chen"
+  },
+  {
+    quote: "I like coffee because it gives me the illusion that I might be awake.",
+    author: "— Lewis Black"
+  },
+  {
+    quote: "To me, the smell of fresh-made coffee is one of the greatest inventions.",
+    author: "— Hugh Jackman"
+  },
+  {
+    quote: "Coffee is a hug in a mug.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee: because adulting is hard.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Life happens. Coffee helps.",
+    author: "— Unknown"
+  },
+  {
+    quote: "A bad day with coffee is better than a good day without it.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a way of stealing time that should by rights belong to your older self.",
+    author: "— Terry Pratchett"
+  },
+  {
+    quote: "Coffee first. Schemes later.",
+    author: "— Leanna Renee Hieber"
+  },
+  {
+    quote: "Coffee is the best thing to douse the sunrise with.",
+    author: "— Terri Guillemets"
+  },
+  {
+    quote: "I orchestrate my mornings to the tune of coffee.",
+    author: "— Terri Guillemets"
+  },
+  {
+    quote: "Black as the devil, hot as hell, pure as an angel, sweet as love.",
+    author: "— Charles Maurice de Talleyrand-Périgord"
+  },
+  {
+    quote: "May your coffee be strong and your Monday be short.",
+    author: "— Unknown"
+  },
+  {
+    quote: "The powers of a man’s mind are directly proportioned to the quantity of coffee he drinks.",
+    author: "— Sir James Mackintosh"
+  },
+  {
+    quote: "Espresso yourself.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a cup of hope in a world full of chaos and Mondays.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Decaf? No, it’s dangerous to dilute my personality.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Even bad coffee is better than no coffee at all.",
+    author: "— David Lynch"
+  },
+  {
+    quote: "Coffee is the common man's gold, and like gold, it brings to every person the feeling of luxury and nobility.",
+    author: "— Sheik-Abd-al-Kadir"
+  },
+  {
+    quote: "Coffee is like a warm blanket for your soul.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee: because crack is bad for you.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I have measured out my life with coffee spoons.",
+    author: "— T.S. Eliot"
+  },
+  {
+    quote: "Coffee smells like freshly ground heaven.",
+    author: "— Jessi Lane Adams"
+  },
+  {
+    quote: "Coffee is a kind of magic you can drink.",
+    author: "— Catherynne M. Valente"
+  },
+  {
+    quote: "Coffee is a beverage that puts one to sleep when not drank.",
+    author: "— Alphonse Allais"
+  },
+  {
+    quote: "Coffee is a hug in a cup.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the best thing to wake up to.",
+    author: "— Unknown"
+  },
+  {
+    quote: "You can't buy happiness, but you can buy coffee and that's pretty close.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the foundation of my food pyramid.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Life's too short for bad coffee.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee makes us severe, and grave, and philosophical.",
+    author: "— Jonathan Swift"
+  },
+  {
+    quote: "Coffee is the best thing to douse the sunrise with.",
+    author: "— Terri Guillemets"
+  },
+  {
+    quote: "Coffee and love are best when they are hot.",
+    author: "— German Proverb"
+  },
+  {
+    quote: "Coffee is a hug in a mug.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee, the favorite drink of the civilized world.",
+    author: "— Thomas Jefferson"
+  },
+  {
+    quote: "Coffee: the most important meal of the day.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee isn't a drug, it's a vitamin.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee, because adulting is hard.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I judge a restaurant by the bread and by the coffee.",
+    author: "— Burt Lancaster"
+  },
+  {
+    quote: "I like my coffee like I like my mornings: dark and strong.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I never laugh until I've had my coffee.",
+    author: "— Clark Gable"
+  },
+  {
+    quote: "My birthstone is a coffee bean.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I believe humans get a lot done, not because we're smart, but because we have thumbs so we can make coffee.",
+    author: "— Flash Rosenberg"
+  },
+  {
+    quote: "Coffee: because hating your job should be done with enthusiasm.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee connects us in so many ways – to each other, to our senses, and to the earth that supports the coffee trees.",
+    author: "— Rohan Marley"
+  },
+  {
+    quote: "Coffee and friends make the perfect blend.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a way of stealing time that should by rights belong to your older self.",
+    author: "— Terry Pratchett"
+  },
+  {
+    quote: "Coffee is a beverage that puts one to sleep when not drank.",
+    author: "— Alphonse Allais"
+  },
+  {
+    quote: "Coffee, the finest organic suspension ever devised.",
+    author: "— Star Trek"
+  },
+  {
+    quote: "Coffee is the planet's most successful psychedelic.",
+    author: "— Terence McKenna"
+  },
+  {
+    quote: "Coffee is my best friend.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the ultimate mood lifter.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the answer to everything.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a hug in a cup.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Without my morning coffee, I'm just like a dried-up piece of goat.",
+    author: "— Johann Sebastian Bach"
+  },
+  {
+    quote: "Coffee is a language in itself.",
+    author: "— Jackie Chan"
+  },
+  {
+    quote: "Coffee is the common man's gold, and like gold, it brings to every person the feeling of luxury and nobility.",
+    author: "— Sheik-Abd-al-Kadir"
+  },
+  {
+    quote: "Coffee is a beverage that puts one to sleep when not drank.",
+    author: "— Alphonse Allais"
+  },
+  {
+    quote: "Coffee is the best thing to wake up to.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a kind of magic you can drink.",
+    author: "— Catherynne M. Valente"
+  },
+  {
+    quote: "Coffee first. Schemes later.",
+    author: "— Leanna Renee Hieber"
+  },
+  {
+    quote: "Coffee is the foundation of my food pyramid.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee: the most important meal of the day.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a beverage that puts one to sleep when not drank.",
+    author: "— Alphonse Allais"
+  },
+  {
+    quote: "Coffee is the best thing to wake up to.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a kind of magic you can drink.",
+    author: "— Catherynne M. Valente"
+  },
+  {
+    quote: "Coffee first. Schemes later.",
+    author: "— Leanna Renee Hieber"
+  },
+  {
+    quote: "Coffee is the foundation of my food pyramid.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee: the most important meal of the day.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee isn't a drug, it's a vitamin.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee, because adulting is hard.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I judge a restaurant by the bread and by the coffee.",
+    author: "— Burt Lancaster"
+  },
+  {
+    quote: "I like my coffee like I like my mornings: dark and strong.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I never laugh until I've had my coffee.",
+    author: "— Clark Gable"
+  },
+  {
+    quote: "My birthstone is a coffee bean.",
+    author: "— Unknown"
+  },
+  {
+    quote: "I believe humans get a lot done, not because we're smart, but because we have thumbs so we can make coffee.",
+    author: "— Flash Rosenberg"
+  },
+  {
+    quote: "Coffee: because hating your job should be done with enthusiasm.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee connects us in so many ways – to each other, to our senses, and to the earth that supports the coffee trees.",
+    author: "— Rohan Marley"
+  },
+  {
+    quote: "Coffee and friends make the perfect blend.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a way of stealing time that should by rights belong to your older self.",
+    author: "— Terry Pratchett"
+  },
+  {
+    quote: "Coffee is a beverage that puts one to sleep when not drank.",
+    author: "— Alphonse Allais"
+  },
+  {
+    quote: "Coffee, the finest organic suspension ever devised.",
+    author: "— Star Trek"
+  },
+  {
+    quote: "Coffee is the planet's most successful psychedelic.",
+    author: "— Terence McKenna"
+  },
+  {
+    quote: "Behind every great day is a great cup of coffee.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is my best friend.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the ultimate mood lifter.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is the answer to everything.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Coffee is a hug in a cup.",
+    author: "— Unknown"
+  },
+  {
+    quote: "Without my morning coffee, I'm just like a dried-up piece of goat.",
+    author: "— Johann Sebastian Bach"
   }
 ]
 
